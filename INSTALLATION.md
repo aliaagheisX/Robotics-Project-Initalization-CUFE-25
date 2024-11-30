@@ -154,6 +154,18 @@ git clone -b  noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations
 cd ..
 catkin_make
 ```
+### 5.2 Burger Setup
+you will need to set environment variable to the type of turtlebot3 you want to play with
+
+since our project play with turtlebot3 burger 
+```bash
+export TURTLEBOT3_MODEL=burger
+```
+to automatically set it every session of ubuntu
+```bash
+echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+```
+
 
 ### 5.2 Play with it
 note once you source workspace you can run this commands where-ever you want
