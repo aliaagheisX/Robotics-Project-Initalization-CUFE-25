@@ -18,6 +18,8 @@ Mostafa Wael
 
 [ 10 things you need to know about ROS! | Getting Ready to Build Robots with ROS #4 ](https://www.youtube.com/watch?v=KAASuA3_4eg&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt&index=4) cover lost topics in playlist above but work with ros2
 
+[ ros gazebo maze simulation for turtlebot3 (beginner-level tutorial) ](https://www.youtube.com/watch?v=J_vasKVhUQM) create your own map and spwan launch file of turtlebot3
+
 [ The ROS Transform System (TF) | Getting Ready to Build Robots with ROS #6 ](https://www.youtube.com/watch?v=QyvHhY4Y_Y8&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt&index=6) I think we will need it
 
 [ How do we describe a robot? With URDF! | Getting Ready to build Robots with ROS #7 ](https://www.youtube.com/watch?v=CwdbsvcpOHM&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt&index=7) I dont know if we will need it 🤔
@@ -25,6 +27,12 @@ Mostafa Wael
 [ Simulating Robots with Gazebo and ROS | Getting Ready to Build Robots with ROS #8 ](https://www.youtube.com/watch?v=laWn7_cj434&list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt&index=8)
 
 ## Tutorials on Material
+
+## Packages you will need
+
+1. gmapping (for mapping in SLAM) (**Take Care :** work best for long laser radars and bad for short ones
+2. explore_light (for creating map autonomously ) (launch it after launching gmapping)
+3. acml (for navigation to the goal from initial position)
 
 ## Tips
 
