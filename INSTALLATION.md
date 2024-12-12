@@ -165,8 +165,14 @@ to automatically set it every session of ubuntu
 ```bash
 echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 ```
-
-
+you can also upgrade Laser Sensor from LDS-1 `(max_range=3.0m)` to LDS-2 `(max_range=8.0)`
+```
+export LDS_MODEL=LDS-02
+```
+and for automaticaly making it the default
+```
+echo "export LDS_MODEL=LDS-02" >> ~/.bashrc
+```
 ### 5.2 Play with it
 note once you source workspace you can run this commands where-ever you want
 ```bash
